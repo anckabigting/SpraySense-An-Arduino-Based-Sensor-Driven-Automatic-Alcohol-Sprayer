@@ -7,7 +7,7 @@ const int echoPin = 10;
 const int buzzerPin = 3;   // Add your buzzer pin here
 const int ledPin = 4;      // Add your LED pin here
 
-long 
+long duration;
 int distance;
 
 // Define angles
