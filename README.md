@@ -35,5 +35,14 @@ A **liquid level sensor** is used to detect the presence of alcohol in the conta
 All electronic components are properly wired using jumper wires and a breadboard, powered by a 5V battery or external power supply, and safely enclosed inside a plywood case to ensure protection and stability of the circuit.
 
 
-       
-Marker
+## How It Works
+The project functions as intended through the following process:
+
+1. The **Arduino** continuously reads distance data from the **ultrasonic sensor**.
+2. The system checks the **liquid level sensor** to confirm alcohol availability.
+3. When a hand is detected within **10 cm** and alcohol is present, the Arduino activates the servo motor.
+4. The servo rotates to a preset angle, pressing the alcohol pump and dispensing liquid.
+5. The buzzer sounds during dispensing to confirm activation.
+6. The servo returns to its original position after spraying.
+7. A two-second cooldown period prevents immediate reactivation.
+8. The green LED indicates normal operation, while the red LED signals the need for refilling.
