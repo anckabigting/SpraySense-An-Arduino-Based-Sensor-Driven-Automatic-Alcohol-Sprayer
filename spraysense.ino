@@ -11,7 +11,7 @@ long duration;
 int distance;
 
 // Define angles
-int idleAngle = 0;       // Servo resting position
+int idleAngle = 0;       // Servo resting position (initial state)
 int pressAngle = 90;     // Servo presses sanitizer
 
 void setup() {
