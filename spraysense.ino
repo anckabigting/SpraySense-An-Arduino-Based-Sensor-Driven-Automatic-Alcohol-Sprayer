@@ -1,4 +1,4 @@
-#include <Servo.h>
+#include <Servo.h> // initialize servo
 
 Servo myServo;
 
@@ -7,7 +7,7 @@ const int echoPin = 10;
 const int buzzerPin = 3;   // Add your buzzer pin here
 const int ledPin = 4;      // Add your LED pin here
 
-long duration;
+long 
 int distance;
 
 // Define angles
